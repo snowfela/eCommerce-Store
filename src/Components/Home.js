@@ -1,8 +1,8 @@
 import {React,useState} from "react";
 import "./home.css";
 import Delivery from "../imgs/delivery.png";
-import Popular from "./Category/Popular";
-import Navbar from './Navbar'
+import Popular from "./Category/Popular.js";
+import Navbar from './Navbar.js'
 
 function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);

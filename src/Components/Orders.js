@@ -1,13 +1,13 @@
 import { React, useEffect } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import "./orders.css";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Done from "../imgs/order-done.png";
 import OrderNow from "../imgs/order-now.gif";
 import Delete from "../imgs/delete-order.png";
-import LowerNav from "./LowerNav";
+import LowerNav from "./LowerNav.js";
 
 function Orders() {
   const OrderItems = useSelector((state) => state.OrderAdded.OrderItems);

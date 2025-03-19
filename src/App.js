@@ -1,19 +1,19 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
-import Home from "./Components/Home";
-import Lists from "./Components/Lists";
-import Signin from "./Components/Signin";
-import Signup from "./Components/Signup";
+import Home from "./Components/Home.js";
+import Lists from "./Components/Lists.js";
+import Signin from "./Components/Signin.js";
+import Signup from "./Components/Signup.js";
 import Load from "./imgs/spin.gif";
-import { app } from "./Firebase";
+import { app } from "./Firebase.js";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import ProductPage from "./Components/ProductPage";
-import CartSection from "./Components/CartSection";
-import Payment from "./Components/Payment";
-import Profile from "./Components/Profile";
-import Orders from "./Components/Orders";
-import Error from "./Components/Error";
+import ProductPage from "./Components/ProductPage.js";
+import CartSection from "./Components/CartSection.js";
+import Payment from "./Components/Payment.js";
+import Profile from "./Components/Profile.js";
+import Orders from "./Components/Orders.js";
+import Error from "./Components/Error.js";
 
 const auth = getAuth(app);
 

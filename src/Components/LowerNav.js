@@ -8,7 +8,7 @@ import Default from "../imgs/default.png";
 import { useSelector } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
 import "./navbar.css";
-import { app } from "../Firebase";
+import { app } from "../Firebase.js";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import swal from "sweetalert";
 

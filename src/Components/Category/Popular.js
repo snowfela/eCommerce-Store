@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./popular.css";
-import Deals from "../Deals";
-import Men from "./Men";
-import Women from "./Women";
-import Electronics from "./Electronics";
-import Jewelery from "./Jewelery";
+import Deals from "../Deals.js";
+import Men from "./Men.js";
+import Women from "./Women.js";
+import Electronics from "./Electronics.js";
+import Jewelery from "./Jewelery.js";
 
 import men from "./Img/men.png";
 import women from "./Img/women.png";

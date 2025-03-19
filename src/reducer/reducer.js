@@ -1,6 +1,6 @@
-import ItemsAdded from "./ListReducer";
-import CartItemsAdded from "./CartReducer";
-import OrderAdded from "./OrderReducer";
+import ItemsAdded from "./ListReducer.js";
+import CartItemsAdded from "./CartReducer.js";
+import OrderAdded from "./OrderReducer.js";
 import { combineReducers } from "redux";
 
 const rootReducer = combineReducers({

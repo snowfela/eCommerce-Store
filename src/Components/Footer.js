@@ -8,8 +8,7 @@ function Footer() {
       <div className="footer">
         <div className="disclaimer-area">
           <p className="disclaimer-desc">
-            <b>Disclaimer:</b> This Amazon clone project is a mere simulation
-            and is not affiliated with Amazon in any way.
+          <a href="#" style={{ color: 'white', textDecoration: 'none' }}>Back to top</a>
           </p>
         </div>
       </div>
@@ -73,14 +72,7 @@ function Footer() {
         <div className="developer">
           <img src={Logo} className="amazon-img" />
           <div className="dev-data">
-            <p>&copy; 2023 | Developed by </p>
-            <a
-              className="dev-link"
-              href="https://github.com/shubho0908"
-              target="_blank"
-            >
-              Shubhojeet Bera
-            </a>
+            <p>&copy; 2023 </p>
           </div>
         </div>
       </div>

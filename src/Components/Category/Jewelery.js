@@ -3,12 +3,12 @@ import "../deals.css";
 import Add from "./Img/heart.png";
 import Added from "./Img/red-heart.png";
 import rating from "./Img/rating.png";
-import { AddToList, RemoveList } from "../../action/List";
+import { AddToList, RemoveList } from "../../action/List.js";
 import { useSelector, useDispatch } from "react-redux";
 import { NavLink } from "react-router-dom";
-import Footer from "../Footer";
-import Spinner from "../Spinner";
-import LowerNav from "../LowerNav";
+import Footer from "../Footer.js";
+import Spinner from "../Spinner.js";
+import LowerNav from "../LowerNav.js";
 
 function Jewelery() {
   const [AllProducts, setAllProducts] = useState([]);

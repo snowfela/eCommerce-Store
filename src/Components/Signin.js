@@ -5,7 +5,7 @@ import BG1 from "../imgs/login-BG.png";
 import BG2 from "../imgs/login-BG2.png";
 import google from "../imgs/google.png";
 import { Link, useNavigate } from "react-router-dom";
-import { app } from "../Firebase";
+import { app } from "../Firebase.js";
 import {
   getAuth,
   signInWithEmailAndPassword,

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import "./profile.css";
-import { app } from "../Firebase";
+import { app } from "../Firebase.js";
 import Default from "../imgs/default.png";
 import USER from "../imgs/user.png";
 import contact from "../imgs/contact.png";
-import LowerNav from "./LowerNav";
+import LowerNav from "./LowerNav.js";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 

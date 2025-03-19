@@ -3,11 +3,11 @@ import "./deals.css";
 import Add from "../imgs/heart.png";
 import Added from "../imgs/red-heart.png";
 import rating from "../imgs/rating.png";
-import { AddToList, RemoveList } from "../action/List";
+import { AddToList, RemoveList } from "../action/List.js";
 import { useSelector, useDispatch } from "react-redux";
-import Footer from "./Footer";
-import Spinner from "./Spinner";
-import LowerNav from "./LowerNav";
+import Footer from "./Footer.js";
+import Spinner from "./Spinner.js";
+import LowerNav from "./LowerNav.js";
 import { NavLink } from "react-router-dom";
 
 function Deals() {

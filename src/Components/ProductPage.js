@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import "./productpage.css";
 import Rating from "../imgs/rating.png";
 import added from "../imgs/added.png";
 import add from "../imgs/not-added.png";
-import { AddToCart, RemoveCart } from "../action/Cart";
+import { AddToCart, RemoveCart } from "../action/Cart.js";
 import { useSelector, useDispatch } from "react-redux";
 import VanillaTilt from "vanilla-tilt";
-import LowerNav from "./LowerNav";
+import LowerNav from "./LowerNav.js";
 
 function ProductPage() {
   const { id } = useParams();
