@@ -6,13 +6,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCxFlA1L576YdczN8ATK24_ob1eZHvXj24",
-  authDomain: "e-commerce-store-bb782.firebaseapp.com",
-  projectId: "e-commerce-store-bb782",
-  storageBucket: "e-commerce-store-bb782.appspot.com", // FIXED: ".app" is incorrect
-  messagingSenderId: "619623905115",
-  appId: "1:619623905115:web:19854ce088276ff2b24c7e",
-  measurementId: "G-JGXFQ2W5HF"
+  //give the config details
 };
 
 // Initialize Firebase
